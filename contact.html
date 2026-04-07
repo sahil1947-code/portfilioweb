@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sahil Shinde - Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+<style>
+#hero-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-color: #000;
+}
+
+body {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+section, .ftco-section {
+  background: transparent !important;
+}
+
+#scroll-progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: transparent;
+  z-index: 9999;
+}
+
+#scroll-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #ffbd39, #ff5e62);
+  box-shadow: 0 0 10px #ffbd39;
+}
+
+.box {
+   background: rgba(255, 255, 255, 0.05) !important;
+   backdrop-filter: blur(10px);
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   border-radius: 20px;
+   padding: 30px;
+   margin-bottom: 30px;
+   transition: 0.3s;
+}
+
+.box:hover {
+   background: rgba(255, 255, 255, 0.1) !important;
+   transform: translateY(-5px);
+}
+
+/* Branded Advanced Preloader */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10001;
+  transition: opacity 1s ease, visibility 1s;
+}
+
+#preloader.fade-out {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader-logo {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ffbd39;
+  letter-spacing: 5px;
+  position: relative;
+  text-transform: uppercase;
+  animation: logo-pulse 2s infinite ease-in-out;
+}
+
+.loader-logo::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ffbd39, transparent);
+  animation: line-slide 2s infinite linear;
+}
+
+@keyframes logo-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.1); opacity: 1; }
+}
+
+@keyframes line-slide {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* Page Transition Effect */
+body {
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+
+body.loaded {
+  opacity: 1;
+}
+
+/* Floating "Back to Top" Button with Progress */
+#back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 189, 57, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 189, 57, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9998;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+#back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#back-to-top svg {
+  width: 24px;
+  height: 24px;
+  fill: #ffbd39;
+  transition: transform 0.3s;
+}
+
+#back-to-top:hover svg {
+  transform: translateY(-5px);
+}
+
+.progress-ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-90deg);
+}
+
+.progress-ring circle {
+  fill: none;
+  stroke: #ffbd39;
+  stroke-width: 3;
+  stroke-dasharray: 151;
+  stroke-dashoffset: 151;
+  transition: stroke-dashoffset 0.1s linear;
+}
+
+.ftco_navbar.scrolled {
+  background: rgba(0, 0, 0, 0.8) !important;
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(255, 189, 57, 0.2);
+}
+</style>
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  <!-- Branded Preloader -->
+	  <div id="preloader">
+	    <div class="loader-logo">Sahil</div>
+	  </div>
+	  
+	  <!-- Floating Back to Top with Progress -->
+	  <div id="back-to-top">
+	    <svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+	    <svg class="progress-ring" width="50" height="50">
+	      <circle cx="25" cy="25" r="24"></circle>
+	    </svg>
+	  </div>
+	  
+	  <div id="scroll-progress-container">
+	    <div id="scroll-progress-bar"></div>
+	  </div>
+	  
+	  <canvas id="hero-canvas"></canvas>
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">SAHIL SHINDE</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="index.html#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="index.html#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="index.html#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="index.html#videos-section" class="nav-link"><span>Videos</span></a></li>
+	          <li class="nav-item"><a href="articles.html" class="nav-link"><span>Articles</span></a></li>
+	          <li class="nav-item"><a href="projects.html" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Mumbai, India</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://9326759805">+ 91 932 6759 805</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">sahilshinde1947@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="#">resumelink</a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/uLaTShUKXraAvHJ77" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div>
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://www.youtube.com/@RishabhMishraOfficial"><span class="icon-youtube"></span></a></li>
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/sahil-shinde-6020b822a/"><span class="icon-linkedin"></span></a></li>  
+					  <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-twitter"></span></a></li>
+					  <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-facebook"></span></a></li>
+				      <li class="ftco-animate"><a href="https://www.instagram.com/rishabhnmishra/"><span class="icon-instagram"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Sahil Shinde</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      // Particle Animation
+      const canvas = document.getElementById('hero-canvas');
+      const ctx = canvas.getContext('2d');
+      let particles = [];
+      let mouse = { x: null, y: null, radius: 150 };
+
+      class Particle {
+        constructor(x, y, directionX, directionY, size, color) {
+          this.x = x; this.y = y; this.directionX = directionX; this.directionY = directionY; this.size = size; this.color = color;
+        }
+        draw() { ctx.beginPath(); ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false); ctx.fillStyle = this.color; ctx.fill(); }
+        update() {
+          if (this.x > canvas.width || this.x < 0) this.directionX = -this.directionX;
+          if (this.y > canvas.height || this.y < 0) this.directionY = -this.directionY;
+          let dx = mouse.x - this.x; let dy = mouse.y - this.y; let distance = Math.sqrt(dx * dx + dy * dy);
+          if (distance < mouse.radius) {
+            if (mouse.x < this.x && this.x < canvas.width - this.size * 10) this.x += 10;
+            if (mouse.x > this.x && this.x > this.size * 10) this.x -= 10;
+            if (mouse.y < this.y && this.y < canvas.height - this.size * 10) this.y += 10;
+            if (mouse.y > this.y && this.y > this.size * 10) this.y -= 10;
+          }
+          this.x += this.directionX; this.y += this.directionY; this.draw();
+        }
+      }
+
+      function init() {
+        particles = [];
+        let numberOfParticles = (canvas.height * canvas.width) / 9000;
+        for (let i = 0; i < numberOfParticles; i++) {
+          let size = Math.random() * 5 + 1;
+          let x = Math.random() * (innerWidth - size * 2) + size * 2;
+          let y = Math.random() * (innerHeight - size * 2) + size * 2;
+          let directionX = (Math.random() * 2) - 1; let directionY = (Math.random() * 2) - 1;
+          particles.push(new Particle(x, y, directionX, directionY, size, '#8C5523'));
+        }
+      }
+
+      function connect() {
+        for (let a = 0; a < particles.length; a++) {
+          for (let b = a; b < particles.length; b++) {
+            let distance = ((particles[a].x - particles[b].x) * (particles[a].x - particles[b].x)) + ((particles[a].y - particles[b].y) * (particles[a].y - particles[b].y));
+            if (distance < (canvas.width / 7) * (canvas.height / 7)) {
+              ctx.strokeStyle = 'rgba(140, 85, 35,' + (1 - (distance / 20000)) + ')'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(particles[a].x, particles[a].y); ctx.lineTo(particles[b].x, particles[b].y); ctx.stroke();
+            }
+          }
+        }
+      }
+
+      function animate() {
+        requestAnimationFrame(animate); ctx.clearRect(0, 0, innerWidth, innerHeight);
+        for (let i = 0; i < particles.length; i++) particles[i].update();
+        connect();
+      }
+
+      window.addEventListener('resize', () => { canvas.width = innerWidth; canvas.height = innerHeight; init(); });
+      window.addEventListener('mousemove', (e) => { mouse.x = e.x; mouse.y = e.y; });
+      window.addEventListener('mouseout', () => { mouse.x = undefined; mouse.y = undefined; });
+      
+      canvas.width = innerWidth; canvas.height = innerHeight;
+      init(); animate();
+
+      window.addEventListener('scroll', () => {
+        const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+        document.getElementById('scroll-progress-bar').style.width = scrolled + '%';
+      });
+
+      // Advanced Page Controls
+      window.addEventListener('load', () => {
+        const preloader = document.getElementById('preloader');
+        preloader.classList.add('fade-out');
+        document.body.classList.add('loaded');
+      });
+
+      // Back to Top & Progress Ring Logic
+      const backToTop = document.getElementById('back-to-top');
+      const progressCircle = document.querySelector('.progress-ring circle');
+      const circumference = 151;
+
+      window.addEventListener('scroll', () => {
+        const scrolled = window.scrollY;
+        const height = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = scrolled / height;
+        
+        if (scrolled > 300) {
+          backToTop.classList.add('show');
+        } else {
+          backToTop.classList.remove('show');
+        }
+        
+        const offset = circumference - (progress * circumference);
+        progressCircle.style.strokeDashoffset = offset;
+      });
+
+      backToTop.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    </script>
+  </body>
+</html>
